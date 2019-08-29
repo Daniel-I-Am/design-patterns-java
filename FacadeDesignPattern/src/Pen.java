@@ -7,5 +7,7 @@ public class Pen {
         // Given as arguments
         this.x = x;
         this.y = y;
+
+        System.out.println(String.format("Moving pen to (%d, %d)", this.x, this.y));
     }
 }
