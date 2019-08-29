@@ -1,0 +1,2 @@
+Een Strategy kan gebruikt worden om meerdere objecten te overkoepelen. Het Strategy 'object' kan dan tijdens programma executie worden uitgewisseld met een nieuwe/andere om het gedrag van het programma aan te passen, zonder dat code elders aangepast zou moeten worden.
+In deze code wordt het level uitgewisseld, waardoor het gedrag veranderd, maar de code in de main() functie niet hoeft te veranderen.

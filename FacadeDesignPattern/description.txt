@@ -1,0 +1,2 @@
+Een Facade is een class die gebouwd is boven een complex stuk code, om het makkelijker te maken om te gebruiken.
+Alle aanvragen naar die code gaan dan door de Facade. Hierom hoef je bij wijzigingen alleen te zorgen dat de methods op de Facade blijven werken en bij het testen je alleen te testen of de Facade methods werken.
