@@ -1,0 +1,2 @@
+Een adapter wordt gebruikt om twee interfaces die niet overeenkomen samen te laten werken. Denk bijvoorbeeld aan een stekker uit het buitenland. De stekker zal niet werken in
+een Nederlands stopcontact, maar met een adapter wordt de stekker omgezet naar een formaat dat wel werkt.
