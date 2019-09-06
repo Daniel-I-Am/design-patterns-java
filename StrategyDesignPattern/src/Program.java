@@ -1,12 +1,20 @@
+import level.*;
+
 public class Program {
     public static void main(String[] args) {
-        LevelContext context = new LevelContext(new LevelOne());
-        context.drawLevel();
+        LevelContext.currentLevel = 1;
 
-        context = new LevelContext(new LevelTwo());
-        context.drawLevel();
+        ILevel level = GetLevelSimpleFactory.getLevel();
+        level.draw();
 
-        context = new LevelContext(new LevelThree());
-        context.drawLevel();
+        LevelContext.currentLevel = 2;
+
+        level = GetLevelSimpleFactory.getLevel();
+        level.draw();
+
+        LevelContext.currentLevel = 3;
+
+        level = GetLevelSimpleFactory.getLevel();
+        level.draw();
     }
 }
