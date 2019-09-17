@@ -1,0 +1,1 @@
+The observer design pattern enables objects to communicate in a one to one or one to many relationship. An observer and or multiple observers can react to a subject.
