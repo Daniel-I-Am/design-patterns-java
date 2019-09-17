@@ -1,0 +1,8 @@
+Een state design pattern definieert een gedrag van het systeem als het in een bepaalde state is.
+
+In het voorbeeld is het apparaat het Clipboard, deze heeft twee states. Een state waarin er geen tekst op het clipboard staat en een state waarin er tekst op het clipboard staat. De implementatie van de copy en paste methoden is anders bij de verschillende states.
+
+De State interface is een algemene beschrijving van de states waar het object zich in kan bevinden.
+Het clipboard gebruikt deze state om het gedrag aan te passen aan wat er van tevoren gebeurd is.
+
+Zoals in dit voorbeeld, waar het clipboard begint zonder tekst. Deze begint dan in de `NoTextOnClipboardState` en geeft dan ook altijd `null` terug als gevraagd wordt wat er op het clipboard staat. Als dan tekst gekopiëerd wordt, verandert de state naar `HasTextOnClipboardState`. Als in deze state de tekst gevraagd wordt, geeft deze de gekopiëerde tekst terug.
