@@ -1,0 +1,5 @@
+Een programma heeft meerdere implementaties van een algoritme - van een aantal opeenvolgende stappen.
+
+Om dit overzichtelijk en uitbreidbaar te maken, kan een basisklasse toegevoegd worden die een aantal gelijke stappen implementeert en alle andere stappen abstract definieert. Deze basisklasse heeft één publieke methode die de opeenvolgende stappen in de juiste volgorde aanroept en een aantal protected methoden die de stappen implementeren of ter implementatie open laten voor de kinderen.
+
+De kinderen breiden de basisklasse uit door de abstracte methoden te implementeren. Deze kan ook de bestaande methoden van de ouderklasse overschrijven of uitbreiden door een super call te doen.
