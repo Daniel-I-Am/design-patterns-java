@@ -1,2 +1,3 @@
-Een adapter wordt gebruikt om twee interfaces die niet overeenkomen samen te laten werken. Denk bijvoorbeeld aan een stekker uit het buitenland. De stekker zal niet werken in
-een Nederlands stopcontact, maar met een adapter wordt de stekker omgezet naar een formaat dat wel werkt.
+Een adapter wordt gebruikt om classes, die incompatibel zijn met elkaar, aan elkaar te verbinden. Dit kan vergeleken worden met een Nederlandse stekker in een Engels stopcontact te stoppen. Dit kan niet, tenzij je een interface gebruikt waar je aan de ene kant een Nederlands stopcontact hebt en aan de andere kant een Engels plug.
+
+In het codevoorbeeld wordt geprobeerd een rechthoek en een lijn te tekenen met een onderling incompatibele main() en 'Rectangle' en 'Line'. De laatste twee zijn overigens verouderd, 'legacy'. Door gebruik van een adapter, genaamd 'RectangleAdapter' en 'LineAdapter' en een interface ('Shape'), kan er met de verouderde klasses een rechthoek en een lijn worden getekend, zonder deze klasses aan te passen.
